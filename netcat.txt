@@ -10,7 +10,9 @@ nc <ip_server> <porta> -> collegare il client
 
 nc <IP_del_server> <porta> < file_da_inviare.txt
 
-// for windows (update this link in time)
+// for windows (update this link in time) try:
 curl -O https://eternallybored.org/misc/netcat/netcat-0.7.1-win32.zip
+
+winget install Insecure.Nmap
 
 
