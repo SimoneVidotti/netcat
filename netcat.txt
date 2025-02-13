@@ -5,6 +5,9 @@ nc -l -p <porta> -e /bin/bash -> far partire il server netcat
 
 nc -l -p <porta> > file_ricevuto.txt
 
+server windows:
+ncat -v -n 10.10.5.88 80
+
 client:
 nc <ip_server> <porta> -> collegare il client
 
