@@ -1,0 +1,16 @@
+netcat
+
+server:
+nc -l -p <porta> -e /bin/bash -> far partire il server netcat
+
+nc -l -p <porta> > file_ricevuto.txt
+
+client:
+nc <ip_server> <porta> -> collegare il client
+
+nc <IP_del_server> <porta> < file_da_inviare.txt
+
+// for windows (update this link in time)
+curl -O https://eternallybored.org/misc/netcat/netcat-0.7.1-win32.zip
+
+
